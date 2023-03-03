@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+{
+  "name": "googleoauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fastify": "^3.29.5",
+    "fastify-passport": "^0.6.0",
+    "fastify-secure-session": "^3.2.0",
+    "nodemon": "^2.0.21",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
